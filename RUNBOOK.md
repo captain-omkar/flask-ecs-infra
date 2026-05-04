@@ -18,8 +18,8 @@ AWS permissions required:
 
 1. Clone the repository:
    ```bash
-   git clone <repo-url>
-   cd <repo-name>
+   git clone https://github.com/captain-omkar/flask-ecs-infra
+   cd flask-ecs-infra
    ```
 
 2. Configure AWS credentials:
@@ -255,5 +255,5 @@ Someone else is running Terraform, or a previous run crashed.
 
 | Role | Contact |
 |------|---------|
-| Infrastructure Owner | @your-name |
+| Infrastructure Owner | @captain-omkar |
 | On-call Escalation | #devops-oncall (Slack) |

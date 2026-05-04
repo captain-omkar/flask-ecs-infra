@@ -15,7 +15,7 @@ We're deploying a new Flask REST API on ECS Fargate behind an ALB, fully provisi
 - **Prod** — Thursday 10:00 AM ET (manual approval required)
 
 ## Links
-- **PR:** (link to pull request)
+- **PR:** https://github.com/captain-omkar/flask-ecs-infra/pulls
 - **Runbook:** `RUNBOOK.md` in repo root
 - **Architecture:** `README.md` → Architecture section
 - **Monitoring:** CloudWatch log group `/ecs/newrelic-demo-<env>`
@@ -24,5 +24,5 @@ We're deploying a new Flask REST API on ECS Fargate behind an ALB, fully provisi
 Minimal. The app is stateless and the infrastructure is isolated per environment. Rollback takes under 5 minutes via ECS task definition revert or `terraform apply` of previous state.
 
 ## Contact
-Owner: @your-name
+Owner: @captain-omkar
 Questions → drop them in the thread or ping me directly.
